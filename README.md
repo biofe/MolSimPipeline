@@ -22,11 +22,10 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 ## Installation
 ```bash
 git clone https://github.com/ortzt/MolSimPipeline.git
-cd MolSimPipeline
 ```
 
 ## Setup
 * In the file 'main.sh' the servername (server='login@server.com') and the absolute path to the working directory on the server (servpath='/root/path/on/server/to/working/dir') must be changed.
 * A Username directory must exist or manually created in the working directory on the server
 ## Usage
-Visit the [USAGE](https://github.com/ortzt/MolSimPipeline/blob/master/USAGE) file.
+cd into the ```txt MolSimPipelin ``` directory and run the script with ```bash ./main.sh```. For the usage visit the [USAGE](https://github.com/ortzt/MolSimPipeline/blob/master/USAGE) file.
