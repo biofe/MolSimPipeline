@@ -20,7 +20,8 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 * [python3](https://www.python.org/)
 
 ## Setup
-* Username directory must exist or manually created in the workspace on the server
+* In the file 'main.sh' the servername (server='login@server.com') and the absolute path to the working directory on the server (servpath='/root/path/on/server/to/working/dir') must be changed.
+* A Username directory must exist or manually created in the working directory on the server
 
 ## Manual
 
