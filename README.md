@@ -14,6 +14,7 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 * [MGLTools](http://mgltools.scripps.edu/)
 * [PyMOL (Open Source)](https://github.com/schrodinger/pymol-open-source)
 * [GNUPlot](http://www.gnuplot.info/)
+* [python3](https://www.python.org/)
 
 ## Manual
 
