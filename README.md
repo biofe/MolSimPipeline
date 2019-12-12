@@ -19,6 +19,9 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 * [GNUPlot](http://www.gnuplot.info/)
 * [python3](https://www.python.org/)
 
+## Setup
+* Username directory must exist in the workspace on the server
+
 ## Manual
 
 ```txt
