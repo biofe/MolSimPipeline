@@ -1,5 +1,5 @@
 # MolSimPipeline
-The Molecular Simulation Pipeline simplifies molecular dynamics simulations with GROMACS and dockings with AutoDock Vina. Therefore it facilitates the communication to a computational cluster and performs simulations on a cluster with simple commands..
+The Molecular Simulation Pipeline simplifies molecular dynamics simulations with GROMACS and dockings with AutoDock Vina. Therefore it facilitates the communication to a computational cluster and performs simulations on a cluster with simple commands. Further, it provides some analysis methods.
 
 Manual Molecular Simulation Pipeline
 
