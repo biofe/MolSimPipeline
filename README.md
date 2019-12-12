@@ -6,6 +6,9 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 * [AutoDock Vina](http://vina.scripps.edu/)
 * [MGLTools](http://mgltools.scripps.edu/)
 * [PyMOL (Open Source)](https://github.com/schrodinger/pymol-open-source)
+
+### Other requirements on the cluster
+* Established passwordless ssh login
 * qsub command for queueing scripts
 * qstat to obtain queue stats
 
