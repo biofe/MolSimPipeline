@@ -1,0 +1,26 @@
+reset
+
+set terminal pngcairo transparent size 3200,1800 noenhanced font ',30'
+set output 'histogram.png'
+
+set palette defined (0 'red', 10 'black' )
+set style data histograms
+set style histogram cluster gap 1.5
+set boxwidth 0.8
+set style fill solid 1.0
+set yrange [0:MAX+0.5]
+set
+
+set ylabel 'Binding affinity [kcal/mol]'
+set title 'Binding affinities of all dockings'
+rgb(a) = a*65536
+
+plot 'logs_trans' u 2:xtic(1) lc rgb rgb(230) t '1', \
+'' u 3 lc rgb rgb(205) t '2', \
+'' u 4 lc rgb rgb(180) t '3', \
+'' u 5 lc rgb rgb(155) t '4', \
+'' u 6 lc rgb rgb(130) t '5', \
+'' u 7 lc rgb rgb(105) t '6', \
+'' u 8 lc rgb rgb(80) t '7', \
+'' u 9 lc rgb rgb(55) t '8', \
+'' u 10 lc rgb rgb(20) t '9'
