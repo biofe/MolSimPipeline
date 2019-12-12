@@ -1,19 +1,19 @@
 # MolSimPipeline
 The Molecular Simulation Pipeline simplifies molecular dynamics simulations with GROMACS and dockings with AutoDock Vina. Therefore it facilitates the communication to a computational cluster and performs simulations on a cluster with simple commands. Further, it provides some analysis methods.
 
-Manual Molecular Simulation Pipeline
+  Manual Molecular Simulation Pipeline
 
-Commands
+  Commands
 
-PROJ
+  PROJ
 
-NAME
+  NAME
 	proj – handles projects
 
-SYNOPSIS
+  SYNOPSIS
 	proj [OPTION] [PROJECTNAME]
 
-DESCRIPTION
+  DESCRIPTION
 	Creates new projects, sets project name, deletes projects and move
 	and restore them to the archive. A list of the existing projects can
 	also be created.
