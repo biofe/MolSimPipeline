@@ -20,7 +20,7 @@ The Molecular Simulation Pipeline simplifies molecular dynamics simulations with
 * [python3](https://www.python.org/)
 
 ## Setup
-* Username directory must exist in the workspace on the server
+* Username directory must exist or manually created in the workspace on the server
 
 ## Manual
 
